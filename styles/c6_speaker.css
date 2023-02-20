@@ -52,13 +52,13 @@ section {
 	padding: 0 20px 20px 20px;
 }
 section h1 {
+	color: #800000;
 	font-size: 150%;
 	padding: .5em 0 .25em 0;
-	margin: 0;
+	margin: 20px;
 }
 section h2 {
-	color: #800000;
-	font-size: 130%;
+	font-size: 120%;
 	padding: .5em 0 .25em 0;
 }
 section p {
@@ -78,8 +78,7 @@ section li {
 /* the styles for the article */
 article {
 	padding: .5em 0;
-	border-top: 2px solid #800000;
-	border-bottom: 2px solid #800000;
+
 }
 article h2 {
 	padding-top: 0;
