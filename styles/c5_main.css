@@ -1,30 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
 /* custom property */
 :root {
 	--global-color-1: #800000;
+}
+
+html
+{
+	background-color: white;
 }
 
 /* the styles for the elements */
 body {
 	font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
-    margin-left: 10px;
+    margin: 0 auto;
+	width: 600px;
+	border: 3px solid #931420;
+	background-color: #fffded;
+
 }
 a:focus, a:hover {
 	font-style: italic;
 }
 /* the styles for the header */
+header
+{
+	border: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+	background: linear-gradient(#e66465, #9198e5);
+}
+
+header h1
+{
+	border-top: 3px solid #931420 ;
+	border-bottom:  3px solid #931420;
+
+}
+
 header h2 {
 	font-size: 175%;
 	color: var(--global-color-1);
-	text-indent: 30px;
+
 }
 header h3 {
 	font-size: 130%;
 	font-style: italic;
-	text-indent: 30px;
+	color: wheat;
 }
 header img {
 	float: left;
+	padding-left: 30px;
+	padding-right: 30px;
+
 }
 .shadow {
 	text-shadow: 2px 2px 2px var(--global-color-1);
@@ -32,10 +65,19 @@ header img {
 /* the styles for the main content */
 main {
 	clear: left;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 main h1 {
 	font-size: 150%;
 	padding: .3em 0;
+	background-color: white;
+
+	border: 5px double #931420;
+	
+	border-radius: 0.5em;
+
+	box-shadow: black 0.25em 0.25em 0.1em;
 }
 main h2 {
 	color: var(--global-color-1);
@@ -67,4 +109,11 @@ main li {
 footer p {
 	text-align: center;
 	padding: 1em 0;
+}
+
+footer
+{
+	border: 3px solid #931420;
+	background-color:  #931420;
+	color: white;
 }
